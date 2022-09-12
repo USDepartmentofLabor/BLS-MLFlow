@@ -1,0 +1,10 @@
+name: mlproject_onet
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      C: {type: string, default: "1, 10, 100"}
+      penalty: {type: string, default: "none, l2"}
+    command: "python mlproject_onet.py {C} {penalty}"    

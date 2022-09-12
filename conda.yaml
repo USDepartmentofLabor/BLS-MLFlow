@@ -1,0 +1,30 @@
+name: bls-mlflow
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.7
+  - pip
+  - pip:
+      - bertopic
+      - cloudpickle
+      - datasets
+      - fsspec
+      - hdbscan
+      - jupyter
+      - matplotlib
+      - mlflow
+      - nltk
+      - pandas
+      - plotly
+      - psutil
+      - psycopg2-binary
+      - pyarrow
+      - ray[tune]
+      - scikit-learn
+      - seaborn
+      - shap
+      - typing-extensions
+      - torch
+      - tqdm
+      - transformers
+      - umap-learn
